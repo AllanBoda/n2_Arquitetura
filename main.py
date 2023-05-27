@@ -50,4 +50,4 @@ def obter_super_fatorial(numero):
     return jsonify({'numero': numero, 'super_fatorial': resultado})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+   app.run(debug=True)
